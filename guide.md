@@ -1,17 +1,28 @@
-# Guide to Creating a Pull Request in GitHub and Getting It Accepted
+# Guide to Recording Your Contribution to the Teams
 
 To monitor you contribution to your team you will require to maintain a GitHub repo dedicated to the task.  You should make weekly updates during the week upto and between Sprints and daily updates durng the Sprint Weeks themselves.
 
-Updates will take the form of a pull request.
+Updates will take the form of a pull request and should be written as a markdown file [see guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-## **Step 1: Clone this Repository**
-Clone this repository to create you own copy of it.
-1. Go to the GitHub repository you want to contribute to.
-2. Click the **Fork** button at the top-right corner to create your copy of the repository.
+## **Step 1: Fork this Repository**
+1. Click the **Fork** button at the top-right corner to create your copy of the repository.
 
 ---
 
-## **Step 2: Create a New Branch**
+## **Step 2: Clone the Repository**
+1. Open your terminal.
+2. Run the following command to clone your forked repository:
+   ```bash
+   git clone https://github.com/your-username/repository-name.git
+   ```
+3. Navigate to the repository directory:
+   ```bash
+   cd repository-name
+   ```
+
+---
+
+## **Step 3: Create a New Branch**
 It is important to create a new branch for your changes rather than making changes on the `main` branch.
 1. Create a new branch:
    ```bash
@@ -21,14 +32,14 @@ It is important to create a new branch for your changes rather than making chang
 
 ---
 
-## **Step 3: Make Your Changes**
+## **Step 4: Make Your Changes**
 1. Open the project in Visual Studio Code or a similar GitHub friendly editor.
 2. Create a markdown file matching the name of branch.
 3. Save your changes.
 
 ---
 
-## **Step 4: Commit Your Changes**
+## **Step 5: Commit Your Changes**
 1. Stage your changes:
    ```bash
    git add .
@@ -40,7 +51,7 @@ It is important to create a new branch for your changes rather than making chang
 
 ---
 
-## **Step 5: Push Your Changes to GitHub**
+## **Step 6: Push Your Changes to GitHub**
 1. Push your changes to your repository:
    ```bash
    git push origin your-branch-name
@@ -48,7 +59,7 @@ It is important to create a new branch for your changes rather than making chang
 
 ---
 
-## **Step 6: Create a Pull Request**
+## **Step 7: Create a Pull Request**
 1. Go to your repository on GitHub.
 2. You will see a **Compare & pull request** button. Click it.
 3. Ensure that the base repository is the original repository and the base branch is `main` (or the relevant branch).
@@ -62,7 +73,7 @@ It is important to create a new branch for your changes rather than making chang
 
 ---
 
-## **Step 8: Address Feedback**
+## **Step 9: Review Feedback**
 Once your academic consultant has reviewed your PR, they may request changes:
 1. Review their comments.
 2. Make the requested changes locally.
@@ -91,10 +102,6 @@ To improve your chances of getting your PR accepted:
 
 ---
 
-## **Step 10: Celebrate!**
-Once your PR is merged, celebrate your contribution! 🎉
-
----
 
 ## **Common Mistakes to Avoid**
 - Not creating a new branch for your changes.
@@ -105,5 +112,7 @@ Once your PR is merged, celebrate your contribution! 🎉
 
 ---
 
-By following this guide, you can confidently create a pull request and increase the chances of your contributions being accepted. Happy coding!
+
+
+
 
