@@ -106,7 +106,7 @@ The command instructions are as follows:
 
 ---
 
-## **Step 9: Review Feedback**
+## **Step 8: Review Feedback**
 Once your academic consultant has reviewed your Pull Request, they may make comments:
 1. Review their comments.
 2. Respond to comments where appropriate.
