@@ -1,4 +1,4 @@
-# Guide to Recording Your Contribution to the Teams
+# Guide to Recording Your Contribution to the Team
 
 To monitor your contribution to your team you will be required to maintain a GitHub repo that records your contribution to the team.
 
