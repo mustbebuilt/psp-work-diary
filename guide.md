@@ -8,14 +8,17 @@ You should make weekly updates during the week upto and between Sprints and dail
 
 Updates will take the form of a pull request and should be written as a markdown file [see guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
+[Tips on using Github in Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
+
+
 > [!TIP]
 > The repo will allow the academic team to see that you have contributed consistently throughout the project via timestamped pull requests.  You should ensure you complete these regularly in order to evidence your contribution to the team.  This will contribute to your mark in both the tasks that make up the assignment.
 
 
 
-## **Step 1: Fork this Repository**
-1. Click the **Fork** button at the top-right corner to create your copy of this repository.
-2. Make your Fork `private` and add your academic consultant as a collaborator.  
+## **Step 1: Create a New Repository**
+1. In your GitHub account create a new repository.
+2. Make your repository `private` and add your academic consultant as a collaborator.  
 3. These can both be done via `Settings` in GitHub.  Setting the repo `private` is found under the `Danger Settings`.
 
 ---
@@ -41,9 +44,9 @@ The command instructions are as follows:
 ## **Step 3: Create a New Branch**
 Create a new branch for your changes rather than making changes on the `main` branch.
 
-This can be done through your Visual Studio Code editor.
+This can be done through your Visual Studio Code editor or via the command-line.
 
-The command instructions are as follows:
+The command-line instructions are as follows:
 
 1. Create a new branch:
    ```bash
@@ -57,15 +60,22 @@ The command instructions are as follows:
 
 1. Open the project in Visual Studio Code or a similar GitHub friendly editor.
 2. Create a markdown file matching the name of branch.
-3. Save your changes.
+3. You should briefly address the following areas:
+   - **What you did during this duration of the session.**
+   - **What you intend to do before the next session.**
+   - **Any issues arising and how you intend to resolve them.**
+4. You may choose to include evidence such project specifications, user stories, wireframe etc and save these in an appropriate folder.
+
+> [!TIP]
+> To familiarize yourself with the process create a `profle.md` file that includes your name and student id.  Remember to ensure that you keep this GitHub `private`.
 
 ---
 
 ## **Step 5: Commit Your Changes**
 
-This can be done through your Visual Studio Code editor.
+This can be done through your Visual Studio Code editor or via the command-line.
 
-The command instructions are as follows:
+The command-line instructions are as follows:
 
 1. Stage your changes:
    ```bash
@@ -73,7 +83,7 @@ The command instructions are as follows:
    ```
 2. Commit your changes with a meaningful message:
    ```bash
-   git commit -m "Work Summary"
+   git commit -m "docs: Week One"
    ```
 
 ---
@@ -82,7 +92,7 @@ The command instructions are as follows:
 
 This can be done through your Visual Studio Code editor as a `Sync` operation.
 
-The command instructions are as follows:
+The command-line instructions are as follows:
 
 1. Push your changes to your repository:
    ```bash
@@ -94,15 +104,11 @@ The command instructions are as follows:
 ## **Step 7: Create a Pull Request**
 
 1. Go to your repository on GitHub.
-2. You will see a **Compare & pull request** button. Click it.
-3. Ensure that the base repository is the original repository and the base branch is `main` (or the relevant branch).
-4. Provide a descriptive title for your pull request.
-5. In the description, include the following details:
-   - **What you did during this duration of the session.**
-   - **What you intend to do before the next session.**
-   - **Any issues arising and how you intend to resolve them.**
-6. Your can choose to create a folder which matches the branch name to add additional evidence such as project specifications, user stories, wireframe etc.
-7. Click **Create pull request**.
+2. Open the **Pull Requests** from the top menu.
+3. You will see a **Compare & pull request** button. Click it.
+4. Ensure that the base repository is the original repository and the base branch is `main` (or the relevant branch).
+5. Provide a descriptive title for your pull request such as `Week One Evidence`.
+8. Click **Create pull request**.
 
 ---
 
@@ -110,13 +116,7 @@ The command instructions are as follows:
 Once your academic consultant has reviewed your Pull Request, they may make comments:
 1. Review their comments.
 2. Respond to comments where appropriate.
-3. Commit and push the updates to the same branch:
-   ```bash
-   git add .
-   git commit -m "Chore: Address reviewer comments"
-   git push origin your-branch-name
-   ```
-4. The pull request will automatically update with your new commits.
+3. Your academic consultant will then commit your changes to the `main` branch to provide a record of your contribution.
 
 
 ---
