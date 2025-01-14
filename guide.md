@@ -1,13 +1,22 @@
 # Guide to Recording Your Contribution to the Teams
 
-To monitor you contribution to your team you will require to maintain a GitHub repo dedicated to the task.  You should make weekly updates during the week upto and between Sprints and daily updates durng the Sprint Weeks themselves.
+To monitor your contribution to your team you will require to maintain a GitHub repo dedicated to the task.
+
+This should be a private repo with your academic consultant as the only contributor.
+
+You should make weekly updates during the week upto and between Sprints and daily updates durng the Sprint Weeks themselves.
 
 Updates will take the form of a pull request and should be written as a markdown file [see guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+> [!TIP]
+> The repo will allow the academic team to see that you have contributed consistently through out the project via timestamped pull requests.  You should ensure you complete these regularly in order to evidence your contribution to the team.  This will contribute to your mark in both the tasks that make up the assignment.
+
+
 
 ## **Step 1: Fork this Repository**
 1. Click the **Fork** button at the top-right corner to create your copy of this repository.
 2. Make your Fork `private` and add your academic consultant as a collaborator.  
-3. These can both be done via `Settings` in GitHub.  Setting the repo private is found under the `Danger Settings`.
+3. These can both be done via `Settings` in GitHub.  Setting the repo `private` is found under the `Danger Settings`.
 
 ---
 
