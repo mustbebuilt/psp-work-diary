@@ -9,7 +9,7 @@ You should make weekly updates during the week upto and between Sprints and dail
 Updates will take the form of a pull request and should be written as a markdown file [see guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 > [!TIP]
-> The repo will allow the academic team to see that you have contributed consistently through out the project via timestamped pull requests.  You should ensure you complete these regularly in order to evidence your contribution to the team.  This will contribute to your mark in both the tasks that make up the assignment.
+> The repo will allow the academic team to see that you have contributed consistently throughout the project via timestamped pull requests.  You should ensure you complete these regularly in order to evidence your contribution to the team.  This will contribute to your mark in both the tasks that make up the assignment.
 
 
 
