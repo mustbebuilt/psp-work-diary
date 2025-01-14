@@ -1,20 +1,18 @@
 # Guide to Recording Your Contribution to the Teams
 
-To monitor your contribution to your team you will require to maintain a GitHub repo dedicated to the task.
+To monitor your contribution to your team you will be required to maintain a GitHub repo that records your contribution to the team.
 
 This should be a private repo with your academic consultant as the only contributor.
 
-You should make weekly updates during the week upto and between Sprints and daily updates durng the Sprint Weeks themselves.
+You should make weekly updates during the weeks that lead upto the Sprint Weeks.  You should make daily updates durng the Sprint Weeks themselves.
 
 Updates will take the form of a pull request and should be written as a markdown file [see guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-[Tips on using Github in Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
+It is recommended you use Visual Studio Code to manage this process. [Tips on using Github in Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
 
 
 > [!TIP]
-> The repo will allow the academic team to see that you have contributed consistently throughout the project via timestamped pull requests.  You should ensure you complete these regularly in order to evidence your contribution to the team.  This will contribute to your mark in both the tasks that make up the assignment.
-
-
+> The repo will allow the academic team to see that you have contributed consistently throughout the project via timestamped pull requests.  You should ensure you complete these regularly in order to evidence your contribution to the team.  This evidenced will be reviewed during the marking of both assignment tasks.
 
 ## **Step 1: Create a New Repository**
 1. In your GitHub account create a new repository.
@@ -25,9 +23,9 @@ Updates will take the form of a pull request and should be written as a markdown
 
 ## **Step 2: Clone the Repository**
 
-Clone the repository either with a GitHub friendly editor like Visual Studio Code or via the command line.
+Clone the repository either with a GitHub friendly editor like Visual Studio Code or via the command-line.
 
-The command instructions are as follows:
+The command-line instructions are as follows:
 
 1. Open your terminal.
 3. Run the following command to clone your forked repository:
@@ -67,7 +65,7 @@ The command-line instructions are as follows:
 4. You may choose to include evidence such project specifications, user stories, wireframe etc and save these in an appropriate folder.
 
 > [!TIP]
-> To familiarize yourself with the process create a `profle.md` file that includes your name and student id.  Remember to ensure that you keep this GitHub `private`.
+> To familiarize yourself with the process create a `profile.md` file that includes your name, student id and team details.  Remember to ensure that you keep this GitHub `private`.
 
 ---
 
@@ -106,9 +104,9 @@ The command-line instructions are as follows:
 1. Go to your repository on GitHub.
 2. Open the **Pull Requests** from the top menu.
 3. You will see a **Compare & pull request** button. Click it.
-4. Ensure that the base repository is the original repository and the base branch is `main` (or the relevant branch).
+4. Ensure that the base repository is the original repository and the base branch is `main`.
 5. Provide a descriptive title for your pull request such as `Week One Evidence`.
-8. Click **Create pull request**.
+6. Click **Create pull request**.
 
 ---
 
