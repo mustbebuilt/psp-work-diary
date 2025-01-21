@@ -19,11 +19,18 @@ It is recommended you use Visual Studio Code to manage this process. [Tips on us
 2. Make your repository `private` and add your academic consultant as a collaborator.  
 3. These can both be done via `Settings` in GitHub.  Setting the repo `private` is found under the `Danger Settings`.
 
+## **Step 2: Create a profile.md file**
+
+Create a new file in the repository with the name `profile.md`.  The `profile.md` file should include your name, student id and team details.  Remember to ensure that you keep this GitHub `private`.  
+
+> [!TIP]
+> See the sample `profile.md` included in this project.
+
 ---
 
-## **Step 2: Clone the Repository**
+## **Step 3: Clone the Repository**
 
-Clone the repository either with a GitHub friendly editor like Visual Studio Code or via the command-line.
+Clone the repository either with a GitHub friendly editor like Visual Studio Code or via the command-line so that you have a local copy to work on.
 
 The command-line instructions are as follows:
 
@@ -39,7 +46,7 @@ The command-line instructions are as follows:
 
 ---
 
-## **Step 3: Create a New Branch**
+## **Step 4: Create a New Branch**
 Create a new branch for your changes rather than making changes on the `main` branch.
 
 This can be done through your Visual Studio Code editor or via the command-line.
@@ -54,7 +61,7 @@ The command-line instructions are as follows:
 
 ---
 
-## **Step 4: Make Your Changes**
+## **Step 5: Make Your Changes**
 
 1. Open the project in Visual Studio Code or a similar GitHub friendly editor.
 2. Create a markdown file matching the name of branch.
@@ -64,12 +71,9 @@ The command-line instructions are as follows:
    - **Any issues arising and how you intend to resolve them.**
 4. You may choose to include evidence such project specifications, user stories, wireframe etc and save these in an appropriate folder.
 
-> [!TIP]
-> To familiarize yourself with the process create a `profile.md` file that includes your name, student id and team details.  Remember to ensure that you keep this GitHub `private`.  See the sample profile.md included in this project.
-
 ---
 
-## **Step 5: Commit Your Changes**
+## **Step 6: Commit Your Changes**
 
 This can be done through your Visual Studio Code editor or via the command-line.
 
@@ -86,7 +90,7 @@ The command-line instructions are as follows:
 
 ---
 
-## **Step 6: Push Your Changes to GitHub**
+## **Step 7: Push Your Changes to GitHub**
 
 This can be done through your Visual Studio Code editor as a `Sync` operation.
 
@@ -99,7 +103,7 @@ The command-line instructions are as follows:
 
 ---
 
-## **Step 7: Create a Pull Request**
+## **Step 8: Create a Pull Request**
 
 1. Go to your repository on GitHub.
 2. Open the **Pull Requests** from the top menu.
@@ -110,7 +114,7 @@ The command-line instructions are as follows:
 
 ---
 
-## **Step 8: Review Feedback**
+## **Step 9: Review Feedback**
 Once your academic consultant has reviewed your Pull Request, they may make comments:
 1. Review their comments.
 2. Respond to comments where appropriate.
