@@ -28,7 +28,7 @@ Clone the repository either with a GitHub friendly editor like Visual Studio Cod
 The command-line instructions are as follows:
 
 1. Open your terminal.
-3. Run the following command to clone your forked repository:
+3. Run the following command to clone your remote GitHub repository to your local repository:
    ```bash
    git clone https://github.com/your-username/repository-name.git
    ```
