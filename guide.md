@@ -19,6 +19,8 @@ It is recommended you use Visual Studio Code to manage this process. [Tips on us
 2. Make your repository `private` and add your academic consultant as a collaborator.  
 3. These can both be done via `Settings` in GitHub.  Setting the repo `private` is found under the `Danger Settings`.
 
+---
+
 ## **Step 2: Create a profile.md file**
 
 Create a new file in the repository with the name `profile.md`.  The `profile.md` file should include your name, student id and team details.  Remember to ensure that you keep this GitHub `private`.  
