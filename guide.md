@@ -65,7 +65,7 @@ The command-line instructions are as follows:
 4. You may choose to include evidence such project specifications, user stories, wireframe etc and save these in an appropriate folder.
 
 > [!TIP]
-> To familiarize yourself with the process create a `profile.md` file that includes your name, student id and team details.  Remember to ensure that you keep this GitHub `private`.
+> To familiarize yourself with the process create a `profile.md` file that includes your name, student id and team details.  Remember to ensure that you keep this GitHub `private`.  See the sample profile.md included in this project.
 
 ---
 
