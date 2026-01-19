@@ -6,7 +6,7 @@ Comment on the personality type identified in the questionnaire.  Discuss the ro
 
 ## Week Two: Team Tools and Project Requirements
 
-Comment on your growing understanding of the client's requirements.  This may include a draft MoSCoW analysis.  Outline tools set up to help the team work together.
+Comment on your growing understanding of the client's requirements.  This may include a draft MoSCoW analysis.  Outline tools set up to help the team work together. Create a retrospective entry for week one and and `profile.md` file. 
 
 ## Week Three: Agile Development
 
