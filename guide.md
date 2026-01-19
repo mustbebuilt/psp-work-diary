@@ -23,7 +23,11 @@ It is recommended you use Visual Studio Code to manage this process. [Tips on us
 
 ## **Step 2: Create a profile.md file**
 
-Create a new file in the repository with the name `profile.md`.  The `profile.md` file should include your name, student id and team details.  Remember to ensure that you keep this GitHub `private`.  
+Create a new markdown file (saved with `.md`) in the repository with the name `profile.md`.
+
+The `profile.md` file should include your name, student id and team details.  Remember to ensure that you keep this GitHub `private`.
+
+Your marker will look to this file as a consistent way to identify whose work they are monitoring / marking.
 
 > [!TIP]
 > See the sample `profile.md` included in this project.
