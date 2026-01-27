@@ -6,7 +6,7 @@ This should be a private repo with your academic consultant as the only contribu
 
 You should make weekly updates during the weeks that lead upto the Sprint Weeks.  You should make daily updates durng the Sprint Weeks themselves.
 
-Updates will take the form of a pull request and should be written as a markdown file [see guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Updates should be written as a markdown files [see guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 It is recommended you use Visual Studio Code to manage this process. [Tips on using Github in Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
 
@@ -111,11 +111,13 @@ The command-line instructions are as follows:
 
 ## **Step 8: Create a Pull Request**
 
+You should make pull requests for the work done in preparation for the sprints and in the sprints themselves.  As such we would expect four pull requests to be made for feedback.  In order to raise a pull request:
+
 1. Go to your repository on GitHub.
 2. Open the **Pull Requests** from the top menu.
 3. You will see a **Compare & pull request** button. Click it.
 4. Ensure that the base repository is the original repository and the base branch is `main`.
-5. Provide a descriptive title for your pull request such as `Week One Evidence`.
+5. Provide a descriptive title for your pull request such as `Sprint One Preparation Evidence`.
 6. Click **Create pull request**.
 
 ---
