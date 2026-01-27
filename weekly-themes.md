@@ -6,11 +6,15 @@ Comment on the personality type identified in the questionnaire.  Discuss the ro
 
 ## Week Two: Team Tools and Project Requirements
 
-Comment on your growing understanding of the client's requirements.  This may include a draft MoSCoW analysis.  Outline tools set up to help the team work together. Create a retrospective entry for week one and and `profile.md` file. 
+Provide evidence that your team has completed the Git/Github Recipes lab.
+
+Comment on your growing understanding of the client's requirements.  This may include a draft MoSCoW analysis.  Outline tools set up to help the team work together.
+
+Create a retrospective entry for week one and and `profile.md` file. 
 
 ## Week Three: Agile Development
 
-Comment on your teams approach to software development.  How will you approach the sprint week.
+Comment on your teams approach to software development.  How will you approach the sprint week?
 
 ## Week Four: Sprint Week Preparation
 
