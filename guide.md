@@ -1,137 +1,143 @@
 # Guide to Recording Your Contribution to the Team
 
-To monitor your contribution to your team you will be required to maintain a GitHub repo that records your contribution to the team.
+To monitor your individual contribution to the team project, you are required to maintain a GitHub repository that records your activity throughout the module.
 
-This should be a private repo with your academic consultant as the only contributor.
+You will do this by **forking the base repository provided** and making **regular diary-style commits** that document your contribution over time.
 
-You should make weekly updates during the weeks that lead upto the Sprint Weeks.  You should make daily updates durng the Sprint Weeks themselves.
+Your academic team will review the **timestamped commit history** to ensure consistent engagement across the project lifecycle.
 
-Updates should be written as a markdown files [see guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+You should:
 
-It is recommended you use Visual Studio Code to manage this process. [Tips on using Github in Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
+* Make **weekly updates** during the weeks leading up to the Sprint Weeks
+* Make **daily updates** during the Sprint Weeks themselves
 
+All updates must be written as **Markdown files**
+[GitHub Markdown guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-> [!TIP]
-> The repo will allow the academic team to see that you have contributed consistently throughout the project via timestamped pull requests.  You should ensure you complete these regularly in order to evidence your contribution to the team.  This evidenced will be reviewed during the marking of both assignment tasks.
-
-## **Step 1: Create a New Repository**
-1. In your GitHub account create a new repository.
-2. Make your repository `private` and add your academic consultant as a collaborator.  
-3. These can both be done via `Settings` in GitHub.  Setting the repo `private` is found under the `Danger Settings`.
-
----
-
-## **Step 2: Create a profile.md file**
-
-Create a new markdown file (saved with `.md`) in the repository with the name `profile.md`.
-
-The `profile.md` file should include your name, student id and team details.  Remember to ensure that you keep this GitHub `private`.
-
-Your marker will look to this file as a consistent way to identify whose work they are monitoring / marking.
+It is recommended that you use **Visual Studio Code** to manage this process.
+[Tips on using GitHub in Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
 
 > [!TIP]
-> See the sample `profile.md` included in this project.
+> This repository allows the academic team to see evidence of consistent contribution via timestamped commits.
+> You must keep this up to date, as this evidence will be reviewed during the marking of both assignment tasks.
 
 ---
 
-## **Step 3: Clone the Repository**
+## **Step 1: Fork the Base Repository**
 
-Clone the repository either with a GitHub friendly editor like Visual Studio Code or via the command-line so that you have a local copy to work on.
+1. Navigate to the base repository provided by the module team.
+2. Click the **Fork** button (top-right of GitHub).
+3. Fork the repository into **your own GitHub account**.
+4. Do **not** create a new repository manually.
 
-The command-line instructions are as follows:
-
-1. Open your terminal.
-3. Run the following command to clone your remote GitHub repository to your local repository:
-   ```bash
-   git clone https://github.com/your-username/repository-name.git
-   ```
-4. Navigate to the repository directory:
-   ```bash
-   cd repository-name
-   ```
+This forked repository will be your **personal contribution diary**.
 
 ---
 
-## **Step 4: Create a New Branch**
-Create a new branch for your changes rather than making changes on the `main` branch.
+## **Step 2: Update the `README.md` File**
 
-This can be done through your Visual Studio Code editor or via the command-line.
+In your forked repository, edit the existing `README.md` file to include:
 
-The command-line instructions are as follows:
+* Your name
+* Your student ID
+* Your team name / number
 
-1. Create a new branch:
-   ```bash
-   git checkout -b your-branch-name
-   ```
-2. Use a descriptive branch name, e.g., `week1`, `week2` or `sprint1day1`.
+This allows markers to clearly identify whose work they are reviewing.
+
+> [!TIP]
+> A [sample README](sample-readme.md) structure is included in the base repository.
 
 ---
 
-## **Step 5: Make Your Changes**
+## **Step 3: Clone Your Forked Repository**
 
-1. Open the project in Visual Studio Code or a similar GitHub friendly editor.
-2. Create a markdown file matching the name of branch.
-3. You should briefly address the following areas:
-   - **What you did during this duration of the session.**
-   - **What you intend to do before the next session.**
-   - **Any issues arising and how you intend to resolve them.**
-4. You may choose to include evidence such project specifications, user stories, wireframe etc and save these in an appropriate folder.
+Clone **your fork**, not the original base repository.
+
+Using the command line:
+
+```bash
+git clone https://github.com/your-username/repository-name.git
+cd repository-name
+```
+
+Or clone directly using Visual Studio Code.
+
+---
+
+## **Step 4: Structure Your Diary**
+
+The repo has a clear folder structure to record your activity.
+
+* Each **week folder** should contain one markdown diary entry
+* Each **sprint folder** may contain daily entries if required
+
+> There is **no need to create branches**.
+> All work should be committed directly to the `main` branch.
+
+---
+
+## **Step 5: Write Your Diary Entries**
+
+For each week (or sprint day), create a Markdown file such as:
+
+* `week-01.md`
+* `week-02.md`
+* `day-01.md`
+
+Each entry should briefly address:
+
+* **What you worked on during this period**
+* **What you plan to do next**
+* **Any issues, blockers, or reflections**
+* **How these issues were resolved or will be addressed**
+
+You may include supporting evidence such as:
+
+* user stories
+* screenshots
+* wireframes
+* meeting notes
+* links to relevant work
+
+Store these in appropriate folders if needed.
 
 ---
 
 ## **Step 6: Commit Your Changes**
 
-This can be done through your Visual Studio Code editor or via the command-line.
+Commit **regularly** with clear, meaningful messages.
 
-The command-line instructions are as follows:
+Using the command line:
 
-1. Stage your changes:
-   ```bash
-   git add .
-   ```
-2. Commit your changes with a meaningful message:
-   ```bash
-   git commit -m "docs: Week One"
-   ```
+```bash
+git add .
+git commit -m "docs: Week 3 contribution diary"
+```
+
+Or use the Source Control panel in Visual Studio Code.
 
 ---
 
 ## **Step 7: Push Your Changes to GitHub**
 
-This can be done through your Visual Studio Code editor as a `Sync` operation.
+Push your commits directly to your forked repository:
 
-The command-line instructions are as follows:
+```bash
+git push origin main
+```
 
-1. Push your changes to your repository:
-   ```bash
-   git push origin your-branch-name
-   ```
+There is:
 
----
-
-## **Step 8: Create a Pull Request**
-
-You should make pull requests for the work done in preparation for the sprints and in the sprints themselves.  As such we would expect four pull requests to be made for feedback.  In order to raise a pull request:
-
-1. Go to your repository on GitHub.
-2. Open the **Pull Requests** from the top menu.
-3. You will see a **Compare & pull request** button. Click it.
-4. Ensure that the base repository is the original repository and the base branch is `main`.
-5. Provide a descriptive title for your pull request such as `Sprint One Preparation Evidence`.
-6. Click **Create pull request**.
+* ❌ **No need for branches**
+* ❌ **No pull requests**
+* ✅ **Direct commits to `main` only**
 
 ---
 
-## **Step 9: Review Feedback**
-Once your academic consultant has reviewed your Pull Request, they may make comments:
-1. Review their comments.
-2. Respond to comments where appropriate.
-3. Your academic consultant will then commit your changes to the `main` branch to provide a record of your contribution.
+## **Important Notes**
 
-
----
-
-
-
-
+* Your forked repository should remain **private** if instructed by the module team
+* Ensure commits are made **consistently across the project**
+* Large gaps in commit history may negatively impact assessment
+* Commit messages and diary content should be **professional and reflective**
 

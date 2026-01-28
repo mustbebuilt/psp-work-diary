@@ -3,5 +3,5 @@
 This repo contains
 
 - a guide to using GitHub for diary submissions.
-- a sample profile page to create.
-- suggested weekly themes to comment upon.
+- a sample readme.md file page to create.
+- suggested weekly themes and structure for your diary.
