@@ -21,6 +21,7 @@ It is recommended that you use **Visual Studio Code** to manage this process.
 > This repository allows the academic team to see evidence of consistent contribution via timestamped commits.
 > You must keep this up to date, as this evidence will be reviewed during the marking of both assignment tasks.
 
+---
 
 ## **Step 1: Fork the Base Repository and Make it Private**
 
