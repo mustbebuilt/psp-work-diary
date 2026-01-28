@@ -22,15 +22,19 @@ It is recommended that you use **Visual Studio Code** to manage this process.
 > You must keep this up to date, as this evidence will be reviewed during the marking of both assignment tasks.
 
 ---
+Sure thing — here’s a **cleanly updated version** that explicitly ensures the fork is **private**, while keeping the tone and structure consistent (＾▽＾)
 
-## **Step 1: Fork the Base Repository**
+---
+
+## **Step 1: Fork the Base Repository (Private Fork Required)**
 
 1. Navigate to the base repository provided by the module team.
 2. Click the **Fork** button (top-right of GitHub).
-3. Fork the repository into **your own GitHub account**.
-4. Do **not** create a new repository manually.
+3. When prompted, **set the fork to `Private`**.
+4. Fork the repository into **your own GitHub account**.
+5. Do **not** create a new repository manually.
 
-This forked repository will be your **personal contribution diary**.
+This forked repository will be your **private personal contribution diary** and should only be accessible to you and the academic team.
 
 ---
 
