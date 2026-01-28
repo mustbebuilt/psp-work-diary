@@ -26,7 +26,7 @@ Sure thing — here’s a **cleanly updated version** that explicitly ensures th
 
 ---
 
-## **Step 1: Fork the Base Repository (Private Fork Required)**
+## **Step 1: Fork the Base Repository and Make it Private**
 
 1. Navigate to the base repository provided by the module team.
 2. Click the **Fork** button (top-right of GitHub).
@@ -34,7 +34,24 @@ Sure thing — here’s a **cleanly updated version** that explicitly ensures th
 4. Fork the repository into **your own GitHub account**.
 5. Do **not** create a new repository manually.
 
-This forked repository will be your **private personal contribution diary** and should only be accessible to you and the academic team.
+### **If You Cannot Set the Fork to Private**
+
+In some cases, GitHub may **disable visibility settings for forked repositories**.
+
+If this happens:
+
+1. Go to your forked repository on GitHub.
+2. Open **Settings**.
+3. Scroll to the **Danger Zone** section.
+4. Select **Detach fork**.
+5. Once detached, change the repository **Visibility** to `Private`.
+
+> [!IMPORTANT]
+> Your contribution diary **must be private**.
+> Detaching the fork does **not** affect assessment and is an accepted solution to GitHub visibility limitations.
+
+This repository will now function as your **private personal contribution diary**, accessible only to you and the academic team.
+
 
 ---
 
