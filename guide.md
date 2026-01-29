@@ -39,9 +39,12 @@ If this happens:
 
 1. Go to your forked repository on GitHub.
 2. Open **Settings**.
-3. Scroll to the **Danger Zone** section.
-4. Select **Detach fork**.
-5. Once detached, change the repository **Visibility** to `Private`.
+3. On the **General** settings page (which is selected by default), scroll down to the **Danger Zone** section, and click **Leave fork network**.
+4. Read the warnings and click I have read and understand these effects.
+5. To verify that you're detaching the correct repository, in the text box, type the name of the fork.
+6. Click Leave fork network.
+7. You may need to refresh the settings page.
+8. Once detached, change the repository **Visibility** to `Private`.
 
 > [!IMPORTANT]
 > Your contribution diary **must be private**.
